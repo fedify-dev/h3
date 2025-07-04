@@ -1,6 +1,10 @@
 @fedify/h3: Integrate Fedify with h3
 ====================================
 
+> [!IMPORTANT]
+> This repository is obsolete and has been archived in favor of the monorepo
+> [fedify-dev/fedify].
+
 [![npm][npm badge]][npm]
 [![Matrix][Matrix badge]][Matrix]
 [![Follow @fedify@hollo.social][@fedify@hollo.social badge]][@fedify@hollo.social]
@@ -33,6 +37,7 @@ app.use(router);
 > If you don't do this, Fedify will not be able to respond with a proper error
 > status code when a content negotiation fails.
 
+[fedify-dev/fedify]: https://github.com/fedify-dev/fedify
 [npm]: https://www.npmjs.com/package/@fedify/h3
 [npm badge]: https://img.shields.io/npm/v/@fedify/h3?logo=npm
 [Matrix]: https://matrix.to/#/#fedify:matrix.org
